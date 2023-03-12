@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://drive.google.com/file/d/1iv-_dXoFnJttY_pAcqn0p1ukTfbbIzfU/view?usp=sharing";
+  "https://raw.githubusercontent.com/20pa5a1210/Surya-Portfolio/9a7660417b03c1d66322faf36631263f32469c2d/src/Assets/Resume_Surya.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
